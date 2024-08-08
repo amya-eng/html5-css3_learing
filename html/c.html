@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.baidu.com/s">
+        <input type="text" name="wd">
+        <button>search baidu</button>
+    </form>
+    <hr>
+    <form action="https://search.jd.com/search" target="_blank" method="get">
+        <input type="text" name="keyword">
+        <button>search jd</button>
+    </form>
+
+    <form action="https://search.jd.com/search" target="_blank">
+        <fieldset>
+            <legend>主要信息</legend>
+            <!--获得焦点-->
+            <label for="account">账户：</label>
+            <input id="account" type="text" name="user" value="zhangsan" checked> <br/>
+            <label>
+            密码：<input type="password" name="pwd"> <br/>
+        </fieldset>
+        
+        </label>
+        性别：<input disabled type="radio" name="gender" value="male">男
+        <input type="radio" name="gender" value="female" checked>女 <br/>
+        爱好：<input type="checkbox" name="hobby" value="smoke">抽烟
+        <input type="checkbox" name="hobby" value="drink">喝酒
+        <input type="checkbox" name="hobby" value="prim" checked disabled>烫头<br/>
+        其他：
+        <textarea name="text" cols="20" rows="5">文本域</textarea><br/>
+        <select>
+            <option value="冀">河北</option>
+            <option value="沪" selected>上海</option>
+            <option value="粤">广东</option>
+        </select>
+        <br/>
+        <!--隐藏域：防止批量注册-->
+        <input type="hidden" name="abc" value="123">
+        <input type="submit" value="确认提交">
+        <button type="reset">重置</button>
+        <input type="reset" value="点我重置">
+        <button type="button">检测是否注册</button>
+        <input type="button" value="检测">
+    </form>
+    <br/>
+    <iframe src="https://www.whu.edu.cn/" width="900" height="500" frameborder="0">
+    </iframe>
+    <br/>
+    <div>我爱&nbsp;&nbsp;&nbsp;中国 &lt;h1&gt;
+        有一个字符实体是：&amp;nbsp;<br/>
+        有一个可以表示&符号的字符实体是：&amp;amp <br/>
+        &amp; &yen; &copy; &times; &divide;
+    </div>
+    <br/>
+    <pre>我爱&nbsp;&nbsp;&nbsp;中国 &lt;h1&gt;
+        有一个字符实体是：&amp;nbsp;
+        &amp
+    </pre>
+</body>
+</html>

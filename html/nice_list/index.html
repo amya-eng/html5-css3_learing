@@ -1,0 +1,107 @@
+<!-- 查看网页源代码，而不是框架代码 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+
+
+
+  
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+
+  <title>CodePen - radio buttons</title>
+
+    <link rel="canonical" href="https://codepen.io/karein/pen/WNgKeap"> -->
+  
+  <!-- 这些注掉的不必有也可以，是针对苹果手机正常显示的设置 -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Rampart+One&amp;display=swap'>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="left">
+        <fieldset>
+            <legend>Choose a flavor: </legend>
+    
+            <div>
+                <input type="radio" id="vanilla" name="flavor" value="vanilla">
+                <label for="vanilla">Vanilla 🍨</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="chocolate" name="flavor" value="chocolate">
+                <label for="chocolate">Chocolate 🍫</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="strawberry" name="flavor" value="strawberry">
+                <label for="strawberry">Strawberry 🍓</label>
+            </div>
+        </fieldset>
+    
+        <fieldset>
+            <legend>States: </legend>
+    
+            <div>
+                <input type="radio" id="disabled_checked" name="state" value="disabled_checked" disabled="disabled" checked="checked" />
+                <label for="disabled_checked">disabled and checked</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="disabled" name="state" name="state" value="disabled" disabled="disabled">
+                <label for="disabled">disabled</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="able" name="state" value="able">
+                <label for="able">able</label>
+            </div>
+        </fieldset>
+    </div>
+    
+    <div class="right">
+        <fieldset>
+            <legend>accent-color: </legend>
+            <div>
+                <input type="radio" id="r" name="accentColor" value="r">
+                <label for="r">R</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="g" name="accentColor" value="g">
+                <label for="g">G</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="b" name="accentColor" value="b">
+                <label for="b">B</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="pink" name="accentColor" value="pink">
+                <label for="pink">pink</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="yellow" name="accentColor" value="yellow">
+                <label for="yellow">yellow</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="auto" name="accentColor" value="auto">
+                <label for="auto">auto</label>
+            </div>
+        </fieldset>
+    </div>
+    <!-- <script src="./s.js" defer></script> -->
+</body>
+</html>

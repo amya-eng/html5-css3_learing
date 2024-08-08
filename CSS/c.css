@@ -1,0 +1,20 @@
+h1 {
+    color:beige;
+    font-size: 30px;
+}
+.class1 {
+    color:brown;
+    font-size: 40px;
+}
+.class2 {
+    color:azure;
+    font-size: 10px;
+}
+#id1 {
+    color:antiquewhite;
+    font-size: 20px;
+}
+.brown {
+    color:brown;
+    font-size:50px;
+}
